@@ -20,15 +20,37 @@ The following is a list of the PSELI site schools. And overview of the PSELI pro
 
 2751-Benoist Farms Elementary  
 0601-Berkshire Elementary  
-2731-Crosspointe Elementary - Annemarie Dilbert
-3261-Diamond View Elementary - Carolyn Seal
-2101-Egret Lake Community Elementary - Dionne Napier
-0621-Forest Hill Elementary - Scott McNichols
-1251-Glade View Elementary
-3351-Grassy Waters Elementary
-0631-Greenacres Elementary
-0012-Hope Centennial Elementary
-0751-Lantana Elementary - Janyn Robinson
-1101-Pahokee Elementary - Karen Abrams
-0781-Rolling Green Elementary
-0481-West Gate Elementary - Patricia Ordonez-Feliciano
+2731-Crosspointe Elementary - Annemarie Dilbert  
+3261-Diamond View Elementary - Carolyn Seal  
+2101-Egret Lake Community Elementary - Dionne Napier  
+0621-Forest Hill Elementary - Scott McNichols  
+1251-Glade View Elementary  
+3351-Grassy Waters Elementary  
+0631-Greenacres Elementary  
+0012-Hope Centennial Elementary  
+0751-Lantana Elementary - Janyn Robinson  
+1101-Pahokee Elementary - Karen Abrams  
+0781-Rolling Green Elementary  
+0481-West Gate Elementary - Patricia Ordonez-Feliciano  
+
+https://palmbeachschools.sharepoint.com/sites/ResearchandEvaluationWiki/SitePages/PSELI-School-Information.aspx
+
+```{r, connection-setup}
+library(DBI)
+library(dbplyr)
+library(tidyverse)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+
+con <- dbConnect(odbc::odbc(), "PBDW2")
+```
+
+
+```{r, connection-disconnect}
+dbDisconnect(con)
+```
+
