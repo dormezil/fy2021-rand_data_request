@@ -1,0 +1,34 @@
+---
+title: "RAND Request for 2019-2020 Administrative Data"
+output: html_notebook
+---
+
+Each year RAND requests administrative data files from your community. By January 31, 2021, RAND is requesting delivery of the 2019-2020 academic year data files.
+
+Please only send these files to RAND via Kiteworks (not email) to ensure appropriate handling of the sensitive information. Please respond to this email with the name of the individual(s) responsible for transmitting the data to RAND. That person(s) will receive the Kiteworks invitation email on Jan 24, 2021.
+
+Responsible for creating data file: Stevens Dormezil
+
+# Student Enrollment Charactertics
+
+A student unique identifier is generated from the districts internal student id using the following methodology outlined in the wiki link below. This psuedo id is important for longitudinal data matching for the RAND team. All students enrolled at some point at any of the PSELI site schools are are included in this file.
+
+<https://palmbeachschools.sharepoint.com/sites/ResearchandEvaluationWiki/SitePages/PsuedoID-Calculation.aspx>
+
+The following is a list of the PSELI site schools. And overview of the PSELI project can be found in the wiki link below.
+
+
+2751-Benoist Farms Elementary  
+0601-Berkshire Elementary  
+2731-Crosspointe Elementary - Annemarie Dilbert
+3261-Diamond View Elementary - Carolyn Seal
+2101-Egret Lake Community Elementary - Dionne Napier
+0621-Forest Hill Elementary - Scott McNichols
+1251-Glade View Elementary
+3351-Grassy Waters Elementary
+0631-Greenacres Elementary
+0012-Hope Centennial Elementary
+0751-Lantana Elementary - Janyn Robinson
+1101-Pahokee Elementary - Karen Abrams
+0781-Rolling Green Elementary
+0481-West Gate Elementary - Patricia Ordonez-Feliciano
